@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aritmeticas"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50sp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_below="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/et_numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:hint="Ingrese un numero"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/et_numero2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese segundo numero"
+        android:layout_below="@+id/et_numero1"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg_acciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_numero2">
+
+
+        <RadioButton
+            android:id="@+id/rb_suma"
+            android:layout_width="120sp"
+            android:layout_marginLeft="50sp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_resta"
+            android:layout_width="120sp"
+            android:layout_marginLeft="40sp"
+            android:text="-"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_divi"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:text="/"
+            android:textSize="25sp"
+            android:layout_marginBottom="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_multi"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:textSize="25sp"
+            android:layout_marginLeft="40sp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll_botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/rg_acciones">
+
+        <Button
+            android:id="@+id/btn_acciones"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="40sp"
+            android:text="Accionar"/>
+
+        <Button
+            android:id="@+id/btn_salir"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:text="Salir"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_botones"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_respueta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

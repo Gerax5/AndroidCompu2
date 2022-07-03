@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/img_person"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Jimena"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_person"/>
+
+    <TextView
+        android:id="@+id/tv_person_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Perez"
+        app:layout_constraintTop_toBottomOf="@+id/tv_person_name"
+        app:layout_constraintStart_toEndOf="@+id/img_person"/>
+
+    <TextView
+        android:id="@+id/tv_person_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Mujer"
+        app:layout_constraintTop_toBottomOf="@+id/tv_person_last_name"
+        app:layout_constraintStart_toEndOf="@+id/img_person"/>
+
+    <TextView
+        android:id="@+id/tv_person_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="40"
+        app:layout_constraintTop_toBottomOf="@+id/tv_person_gender"
+        app:layout_constraintStart_toEndOf="@+id/img_person"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
