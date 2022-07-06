@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40sp"
+        android:text="Actividad 6"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_personas"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:text="Personas"
+        android:backgroundTint="@android:color/holo_purple"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_vehiculos"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="Vehiculos"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/holo_purple"/>
+
+    <Button
+        android:layout_width="125sp"
+        android:layout_height="wrap_content"
+        android:text="Productos"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_procutos"
+        android:backgroundTint="@android:color/holo_purple"/>
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_marginTop="20sp"
+        android:id="@+id/btn_salir"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

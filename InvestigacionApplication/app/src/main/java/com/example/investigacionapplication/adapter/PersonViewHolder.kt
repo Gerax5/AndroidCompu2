@@ -11,7 +11,6 @@ class PersonViewHolder(view: View): RecyclerView.ViewHolder(view){
 
     private val binding = ItemPersonBinding.bind(view)
 
-
     fun render(personasModel: Personas){
         binding.tvPersonName.text = personasModel.nombre
         binding.tvPersonLastName.text = personasModel.apellido

@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        /*binding.btnSalir.setOnClickListener(new View.OnClickListener() {
+        binding.btnSalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 System.exit(0);
             }
-        });*/
+        });
 
-        /*binding.btnValidar.setOnClickListener(new View.OnClickListener() {
+        binding.btnValidar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(editTextisEmpty()){
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(view.getContext(), "Error en los datos", Toast.LENGTH_SHORT).show();
                 }
             }
-        });*/
+        });
 
     }
 
