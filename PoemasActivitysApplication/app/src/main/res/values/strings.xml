@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">PoemasActivitysApplication</string>
+
+    <string name="poema_primavera_uno">Guatemala es un enorme Silencio, un largo vacio en su vida.\nLa eterna Primavera para ello no significa mas que
+                            una fila de fantamas,\nrecipientes de un dolor agudo que nunca termina de comprender\n\nJavier Payeras
+    </string>
+
+    <string name="poema_primavera_dos">
+        \"LA PRIMAVERA, ERES TÚ\"\n\n
+        Beatriz Vielman que la Patria venera porque siempre ama el ESCUDO NACIONAL DE GUTEMALA, ave real EL QUETZAL Y a la MARIMBA, instrumento de madera.\n\n
+        Rinde con Honor al pié de la bandera en su cielo azul se volca fugitiva corazón de MONJA BLANCA siempre-viva embalsamando la eterna primavera.\n\n
+        Con delicia e su voz de gran belleza Beatriz chapina, sabia y buena hija En letras nos deja su alada nobleza.\n\n
+        Hunapu, Quauhteamali, que deshija A la sombra de la LA CEIBA... en su grandeza mujer de Maíz, Ixmucané es cobija.\n\n
+        Dr. Rafael Merida
+    </string>
+
+    <string name="poema_primavera_tres">
+        Abril, sin tu asistencia clara, fuera invierno de caídos esplendores; mas aunque abril no te abra a ti sus flores, tu siempre exaltarás la primavera.\n\n
+        Juan Ramón Jiménez
+    </string>
+
+    <string name="poema_patria_uno">
+        GUATEMALA\n\n
+        Patria de las perfectas luces, tuya, la ingenua agraria y melodiosa fiesta. Campos que cubren hoy brazos de cruces.\n\n
+        Patria de los perfectos lagos, altos espejos que tu mano acerca al cielo, para que vea Dios tantos estragos.\n\n
+        Patria de los perfectos montes, cauda de verdes curvas imantando auroras, hoy por carcel te da ntus ¡Ho! Patria de los perfectos días, Hora de pájaros, de flores, de silencio que ahora, oh dolor, son agonías
+
+    </string>
+
+    <string name="poema_patria_dos">
+        PATRIA MIA\n\n
+        Patria mía,imbuida en flores,y te canto con el almaempapada de rocío.\n\nPatria mía,exuberantemente verde y floral,cada mañana, cuando el sol aparece en el horizontese arrodilla mi espíritu de milpa primaveraly entonces Dios escuchala más ferviente oración.\n\nPatria mía,cada vez que pronunciotu sacrosanto nombreen mi corazón se derramala poesía más dulce y excelsa.\n\n
+        Elder Exvedi Morales Mérida.
+
+    </string>
+
+    <string name="poema_patria_tres">
+        ENAMORADO DE GUATEMALA\n\n
+        Estoy enamoradode tus vastos paisajesde ensueño y fantasía,\n\n
+        de la paz de tus campos,de la bendita vendimia de tu sueloGuatemala mía.\n\n
+        Estoy enamoradode los azahares de tus milpas,de tus celajes sublimes,de tus húmedos y fructíferos surcos, Guatemaya inmortal.\n\n
+        Me embriagode tus aromas silvestres y mágicos,y por esocon el corazón ardiendo de amor te cantoy me hierve la sangreal decir: ¡soy guatemalteco!\n\n
+        Tu nombrebrota de mis labiosdulce y sacrosantamenteGuatelinda,germen del milenario maízy porque soy tu genuino enamoradoseguiré ofreciéndote mis cantos,esencias de mi alma.\n\n
+        Guatemarimba,dulcísimo acento,mi alma se inflama de júbilo cuando paso a pasorecorro tu extraordinaria historiay platico con el maíz,espíritu vivientede mis antepasados.\n\n
+        Guatedulce,te contemplo con arrobamientoporque eresmi música eterna de amor,mi cuna agrariay el pensil de DIOS.\n\n
+        Elder Exvedi Morales Mérida.
+
+    </string>
+
+    <string name="poema_sbpatrios_uno">
+        POEMA A LA BANDERA.\n\n
+        Yo tengo una BanderaBandera bicolor, Que indica que sigamos la senda del honor.\n\n
+        Mi Bandera y mi Escudo con su bello quetzal simbolizan la patria,Guatemala inmortal.
+    </string>
+
+    <string name="poema_sbpatrios_dos">
+        MONJA BLANCA DE GUATEMALA\n\n
+        Bella Monja Blanca de Guatemala Tu hermosura cautiva a propios y extraños.\n\n
+        Tu rareza te viste con traje de gala Para ser admirada por adultos y niños.Oh Monja Blanca, encanto de diamante\n\n
+        Flor nacional de mi patria amada Musa del poeta, poesía del estudiante Tu escasez y lindura te hace delicada.Excelsa Monja Blanca de mi país\n\n
+        Reina de las verdes montañas Te aprecio desde que existís Como símbolo de grandes hazañas Monja Blanca, símbolo patrimonial En una moneda fuiste acuñada Para conservar tu belleza naturalDe las orquídeas la más soñada.\n\n
+        Edwin Yanes
+    </string>
+
+    <string name="poema_sbpatrios_tres">
+        POEMA A LA CEIBA\n\n
+        La ceiba  Árbol Nacional de Guatemala Exaltada por el botánico Ulises Rojas Con miras de evitar a toda costa su tala Para que sigan dando sombra sus hojas.\n\n
+        Ceiba Pentandra fiel insignia de mi país Representante de la flora guatemalteca Que en las grandes y altas montañas vivís Para dar cobijo y que la hierba, no esté seca.Ceiba Pentandra, representas el orgulloDe nuestras soberanas raíces mayasQue nos abrigó como su tierno capullo Y para tal fin libraron continúas batallas.\n\n
+        Ceiba Árbol Nacional de mi patria amada Son tus verdes follajes terciopelo de aves;Eres reverenciado como el árbol  de la vida Pócima medicinal incorporada en jarabes.\n\n
+        La ceiba es considera como árbol sagrado Árbol sabio, previsor de la vida de los niños Señora de las plazas, mercados y del cabildo En el mes patrio, te reverenciamos cariños.
+
+    </string>
+
+</resources>

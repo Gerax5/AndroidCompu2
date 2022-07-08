@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_marginTop="20sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/img_bandera"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Poemas de Guatemala"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn_tipo_poema_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:text="Poemas Primavera"/>
+
+    <Button
+        android:id="@+id/btn_tipo_poema_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poemas a la Patria"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/btn_tipo_poema_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poemas Simbolos Patrios"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"/>
+
+</LinearLayout>

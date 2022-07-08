@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PatriaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patria Guatemala"
+        android:layout_marginVertical="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_patria1"
+                android:layout_width="300sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40sp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="@string/poema_patria_uno"/>
+
+            <ImageView
+                android:id="@+id/img_patria2"
+                android:layout_width="300sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40sp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="@string/poema_patria_dos"/>
+
+            <ImageView
+                android:id="@+id/img_patria3"
+                android:layout_width="300sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40sp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="@string/poema_patria_tres"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
