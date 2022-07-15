@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_opcion1"
+        android:title="Banco"
+        android:icon="@drawable/ic_banco"/>
+
+    <item android:id="@+id/nav_hospital"
+        android:title="Hospital"
+        android:icon="@drawable/ic_hospital"/>
+
+    <item android:id="@+id/nav_persona"
+        android:title="Persona"
+        android:icon="@drawable/ic_persona"/>
+
+</menu>
