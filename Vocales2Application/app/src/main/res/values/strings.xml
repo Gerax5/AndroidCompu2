@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vocales2Application</string>
+    <string name="vocal_a">Hola soy la Vocal a</string>
+    <string name="vocal_e">Hola soy la Vocal e</string>
+    <string name="vocal_i">Hola soy la Vocal i</string>
+    <string name="vocal_o">Hola soy la Vocal o</string>
+    <string name="vocal_u">Hola soy la Vocal u</string>
+</resources>

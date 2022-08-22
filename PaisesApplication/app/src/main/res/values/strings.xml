@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PaisesApplication</string>
+    <string name="guatemala_habitantes">Poblacion de 16.86 millones</string>
+    <string name="canada_habitantes">Poblacion de 38.01 millones</string>
+    <string name="argentina_habitantes">Poblacion de 45.38 millones</string>
+    <string name="mexico_habitantes">Poblacion de 128.9 millones</string>
+    <string name="italia_habitantes">Poblacion de 59.55 millones</string>
+    <string name="espania_habitantes">Poblacion de 47.35 millones</string>
+    <string name="chile_habitantes">Poblacion de 19.12 millones</string>
+    <string name="suiza_habitantes">Poblacion de 8.637 millones</string>
+    <string name="francia_habitantes">Poblacion de 67.39 millones</string>
+    <string name="brasil_habitantes">Poblacion de 212.6 millones</string>
+</resources>

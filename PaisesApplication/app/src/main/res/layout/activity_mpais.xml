@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MPaisActivity">
+
+    <TextView
+        android:id="@+id/tv_nombre_pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="..."
+        android:textSize="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_margin="25sp"/>
+
+    <ImageView
+        android:id="@+id/img_bandera"
+        android:layout_width="200sp"
+        android:layout_height="120sp"
+        android:src="@color/black"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_poblacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_regresar"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
