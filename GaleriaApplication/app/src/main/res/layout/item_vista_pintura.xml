@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15sp"
+    android:layout_margin="15sp"
+    app:cardBackgroundColor="#C8D6B9"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imv_vista_pintura"
+            android:layout_width="200sp"
+            android:layout_height="250sp"
+            android:src="@color/black"
+            android:layout_margin="15sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_nombre_vista_pintura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_precio_vista_pintura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="125.000"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_descripcion_vista_pintura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="15sp"/>
+
+        <Button
+            android:id="@+id/btn_adquirir_pintura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adquirir"
+            android:backgroundTint="#ffda9e"
+            android:layout_margin="10sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
