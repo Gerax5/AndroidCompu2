@@ -8,28 +8,22 @@
     tools:context=".MainActivity">
 
     <include
-        android:id="@+id/id_toolbar"
+        android:id="@+id/toolbar_main"
         layout="@layout/toolbar"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Colores"
-        android:textSize="25sp"
-        android:layout_margin="25sp"
+        android:text="Pelotas al rededor del mundo"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
         />
 
-    <GridView
-        android:id="@+id/gv_colores"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_principal"
+        android:layout_marginTop="40sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:numColumns="auto_fit"
-        android:columnWidth="100sp"
-        android:layout_margin="15sp"
-        android:horizontalSpacing="15sp"
-        android:stretchMode="spacingWidth"/>
-
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

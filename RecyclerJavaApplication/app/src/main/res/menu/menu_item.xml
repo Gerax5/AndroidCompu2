@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/ic_grid"
+        app:showAsAction="always"
+        android:id="@+id/item_grid"
+        android:title="Icono_grid" />
+
+    <item
+        android:icon="@drawable/ic_lines"
+        android:title="icono_lines"
+        android:id="@+id/item_lines"
+        app:showAsAction="always"/>
+
+
+</menu>

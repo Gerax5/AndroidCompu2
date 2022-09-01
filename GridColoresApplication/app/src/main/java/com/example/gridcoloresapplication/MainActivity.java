@@ -1,14 +1,20 @@
 package com.example.gridcoloresapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Toast;
 
 import com.example.gridcoloresapplication.databinding.ActivityMainBinding;
+import com.example.gridcoloresapplication.databinding.ToolbarBinding;
 
 import java.util.ArrayList;
 
@@ -21,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        Toolbar toolbar = findViewById(R.id.id_toolbar);
+        setSupportActionBar(toolbar);
 
         AdapterColoresGrid adapterColoresGrid = new AdapterColoresGrid(this, R.layout.item_cuadro_color, colores(), hexa());
         binding.gvColores.setAdapter(adapterColoresGrid);
@@ -35,6 +43,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_item, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.item1:
+                Toast.makeText(this, "HOLAAA", Toast.LENGTH_SHORT).show();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public ArrayList<String> hexa(){
