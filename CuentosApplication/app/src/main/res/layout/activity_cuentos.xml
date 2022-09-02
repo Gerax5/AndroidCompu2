@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CuentosActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tbl_cuentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9F1111"
+        app:tabTextColor="@color/white"
+        android:elevation="15sp"/>
+
+    <FrameLayout
+        android:id="@+id/frl_contenedor_cuentos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
