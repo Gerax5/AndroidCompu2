@@ -1,3 +1,152 @@
 <resources>
-    <string name="app_name">CineApplication</string>
+    <string name="app_name">Cartelera</string>
+    <string name="sinopss_nope">
+
+        Los cuidadores de un rancho de caballos de California se cruzan con una fuerza misteriosa que afecta el comportamiento humano y animal.
+
+    </string>
+    <string name="direcotyactores_nope">
+
+        Director:\n\n Jordan Peele\n\n
+        Reparto:\n\n
+        Daniel Kaluuya\n\n
+        Keke Palmer\n\n
+        Steven Yeun\n\n
+        Brandon Perea\n\n
+        Barbie Ferreira\n\n
+        Michael Wincott
+
+    </string>
+    <string name="puntuacionrecauda_nope">
+
+        Puntuacion:\n
+        IMDb: 7.0/10\n
+        Rotten Tomatoes: 82%\n\n
+        Recaudacion:\n
+        $133 029 000
+
+    </string>
+    <string name="sinopsis_todoentodas">
+
+        Una heroína inesperada debe usar sus nuevos poderes para luchar contra los desconcertantes peligros del multiverso y así lograr salvar su mundo.
+
+    </string>
+    <string name="directoryactores_todoentodas">
+
+        Director: Dan Kwan, Daniel Scheinert\n
+        Reparto:\n
+        Michelle Yeoh\n
+        Jonathan ke Quan\n
+        Jamie Lee Curtiss\n
+
+    </string>
+    <string name="puntuacionrecuda_todoentodas">
+
+        Puntuacion:\n
+        IMDb: 8.1/10\n
+        Rotten Tomatoes: 95%\n\n
+        Recaudacion:\n
+        $100 800 000
+
+    </string>
+    <string name="sinopsis_elvis">
+
+        Elvis Presley salta a la fama en la década de 1950, mientras mantiene una relación compleja con su manager, el coronel Tom Parker.
+
+    </string>
+    <string name="directoryactores_elvis">
+
+        Director: Baz Luhrmann\n
+        Reparto:\n
+        Austin Butler\n
+        Tom Hanks\n
+        Dacre Montgomery\n
+        Olivia DeJonge
+
+    </string>
+    <string name="puntuacionrecauda_elvis">
+
+        Puntuacion:\n
+        IMDb: 7.5/10\n
+        Rotten Tomatoes: 78%\n\n
+        Recaudacion:\n
+        $272 900 000
+
+    </string>
+    <string name="sinopsis_spidey">
+
+        Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter le pide ayuda al Doctor Strange para recuperar su vida, pero algo sale mal y provoca una fractura en el multiverso.
+
+    </string>
+    <string name="directoryactores_spidey">
+
+        Director: Jon Watts\n
+        Reparto:\n
+        Tom Holland\n
+        Zendaya\n
+        Tobey Maguire\n
+        Andrew Garfield\n
+        Willem Dafoe\n
+        Marisa Tomei
+
+    </string>
+    <string name="puntuacionrecauda_spidey">
+
+        Puntuacion:\n
+        IMDb: 8.3/10\n
+        Rotten Tomatoes: 93%\n\n
+        Recaudacion:\n
+        $1 975 000 000
+
+    </string>
+    <string name="sinopsis_thor">
+
+        Thor está buscando la paz interior, pero la irrupción de Gorr, el asesino de dioses, le obliga a volver al combate. Thor recluta a la Reina Valkiria, Korg y su exnovia, Jane Foster, para que lo ayuden a evitar la extinción de los dioses.
+
+    </string>
+    <string name="directoryactores_thor">
+
+        Director: Taika Waititi\n
+        Reparto:\n
+        Chris Hemsworth\n
+        Cristian Bale\n
+        Natalie Portman\n
+        Taika Waititi\n
+        Tessa Thompson\n
+
+    </string>
+    <string name="puntuacionrecauda_thor">
+
+        Puntuacion:\n
+        IMDb: 6.5/10\n
+        Rotten Tomatoes: 64%\n\n
+        Recaudacion:\n
+        $755 086 487
+
+    </string>
+    <string name="sinopsis_pinocho">
+
+        En un pueblo italiano, el títere de madera Pinocho cobra vida gracias al Hada Azul. Pinocho se esfuerza por comportarse como un niño de carne y hueso, pero su vida da un vuelco al abandonar a su padre para unirse a un circo.
+
+    </string>
+    <string name="directoryactor_pinocho">
+
+        Director: Robert Zemeckis\n
+        Reparto:\n
+        Tom Hanks\n
+        Cynthia Erivo\n
+        Benjamin Evan Ainsworth\n
+
+    </string>
+    <string name="puntuacionrecauda_pinocho">
+
+        Puntuacion:\n
+        IMDb: 5.1/10\n
+        Rotten Tomatoes: 27%\n\n
+        Recaudacion:\n
+        N.A.
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

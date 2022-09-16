@@ -14,6 +14,15 @@
         android:theme="@style/Theme.CineApplication"
         tools:targetApi="31">
         <activity
+            android:name=".FinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MostrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DescripcionPeliculaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

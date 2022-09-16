@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PaisesApplication</string>
+    <string name="app_name">Paises Application</string>
     <string name="guatemala_habitantes">Poblacion de 16.86 millones</string>
     <string name="canada_habitantes">Poblacion de 38.01 millones</string>
     <string name="argentina_habitantes">Poblacion de 45.38 millones</string>

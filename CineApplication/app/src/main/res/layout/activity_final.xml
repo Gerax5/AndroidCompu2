@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#233342"
+    android:orientation="vertical"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos de compra"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su nombre"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:layout_marginLeft="60sp"
+            android:id="@+id/et_cantidad_boletos"
+            android:layout_width="100sp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Cantidad\n de boletos"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_apellido"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su apellido"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_precio_boleto"
+
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:text="Precio Boletos"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_nit"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su NIT"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_monto_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:text="Q.0.00"/>
+
+    <TextView
+        android:id="@+id/tv_comprar"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20sp"
+        android:background="@drawable/ic_boleto"
+        android:text="Comprar"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</LinearLayout>
