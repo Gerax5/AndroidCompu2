@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.icono_luna:
-                Toast.makeText(this, "Esto es un Toast", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Esto es un Toast", Toast.LENGTH_LONG).show();
                 break;
         }
         return super.onOptionsItemSelected(item);

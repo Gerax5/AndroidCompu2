@@ -3,6 +3,7 @@ package com.example.cineapplication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.Intent;
@@ -75,8 +76,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.icono_grid:
+                binding.rvPeliclas.setLayoutManager(new GridLayoutManager(this, 3));
                 break;
             case R.id.icono_lines:
+                binding.rvPeliclas.setLayoutManager(new LinearLayoutManager(this));
                 break;
         }
         return super.onOptionsItemSelected(item);

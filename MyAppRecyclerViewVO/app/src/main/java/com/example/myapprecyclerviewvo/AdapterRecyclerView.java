@@ -45,7 +45,7 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
 
             textViewNombre = itemView.findViewById(R.id.tv_nombre);
             txtViewCalidad = itemView.findViewById(R.id.tv_calidad);
-            imageView = itemView.findViewById(R.id.img_comida)
+            imageView = itemView.findViewById(R.id.img_comida);
         }
         private void asignarDatos(String nombre, String calidad, Integer imagen){
             textViewNombre.setText(String.valueOf(nombre));
