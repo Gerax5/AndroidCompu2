@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.icono_grid:
-                binding.rvPeliclas.setLayoutManager(new GridLayoutManager(this, 3));
+                binding.rvPeliclas.setLayoutManager(new GridLayoutManager(this, 2));
                 break;
             case R.id.icono_lines:
                 binding.rvPeliclas.setLayoutManager(new LinearLayoutManager(this));
